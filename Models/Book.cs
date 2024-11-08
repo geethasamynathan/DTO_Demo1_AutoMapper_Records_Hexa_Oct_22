@@ -9,4 +9,7 @@
         public DateTime? ReleaseDate { get; set; }
         public string? Genre { get; set; }
     }
+
+ 
+    public record BookDTO(int Id, string Title,string Author,decimal Price);
 }
